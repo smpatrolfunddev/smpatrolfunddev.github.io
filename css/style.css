@@ -87,7 +87,9 @@ text-decoration: none;
 }
 
 .header-block {
+	background: rgb(36,110,185);
 	    background: rgb(36,110,185, 0.7);
+	    opacity: 0.5;
 }
 
 .form-group.required label:after {
