@@ -1,5 +1,5 @@
 body {
-padding-top: 58px;
+padding-top: 68px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color: #FDFFFC;
   font-size: 16px;
@@ -18,49 +18,50 @@ padding-top: 58px;
 
 
 .button-white {
-	border:1px solid #db261c;
-	color:#e32619;
+	border:1px solid #f52b21;
+	color:#f52b21;
 }
 
 .button-white:hover  {
-		color:#FDFFFC;
-	background-color:#db261c;
+		color:#fff;
+	background-color:#f52b21;
 }
 
 
 .text-red{
-	color:#e32619;
+	color:#f52b21;
 }
 
 .text-green {
 	color: #4CB944;
 }
 
+
 .text-blue {
-	color: #246EB9;
+	color: #f52b21;
 }
 
 .bg-blue {
-	background-color: #235789;
+	background: rgb(238,225,194);
 }
 
 .navbar-light {
-    background-color: #FDFFFC;
+    background-color: #fff;
     box-shadow: 0 -3px 5px 0px grey;
 }
 
 .button-red {
-	color:#FDFFFC;
-	background-color:#E32619;
-	border:1px solid #E32619;
+	color:#fff;
+	background-color:#f52b21;
+	border:1px solid #f52b21;
 }
 
 .navbar-light .navbar-nav .nav-link.button-red {
-	color: #FDFFFC;
+	color: #fff;
 }
 
 .navbar-light .navbar-nav .nav-link.button-red:hover {
- color: #E32619;
+ color: #f52b21;
 } 
 
 
@@ -68,9 +69,9 @@ padding-top: 58px;
 	border-radius: 0px;
 }
 .button-red:hover {
-background-color: #FDFFFC;
-border:1px solid #E32619;
-color:#E32619;
+background-color: #fff;
+border:1px solid #f52b21;
+color:#f52b21;
 text-decoration: none;
 }
 
@@ -87,19 +88,23 @@ text-decoration: none;
 }
 
 .header-block {
-	background: rgb(36,110,185);
-	background: rgb(36,110,185, 0.7);
+	background: rgb(238,225,194);
+	background: rgb(238,225,194, 0.7);
+}
+
+.table-striped tbody tr:nth-of-type(odd){
+background: #eee1c2;
 }
 
 .form-group.required label:after {
   content:"*";
-  color:#E32619;
+  color:#f52b21;
 }
 
 a.text-blue:hover {
-	color: #E32619;
+	color: #000;
 }
 
 a.text-red:hover {
-	color: #FDFFFC;
+	color: #000;
 }
