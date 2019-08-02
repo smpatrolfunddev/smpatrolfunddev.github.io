@@ -108,3 +108,7 @@ a.text-blue:hover {
 a.text-red:hover {
 	color: #000;
 }
+
+.header-height {
+	height: 200px;
+}
