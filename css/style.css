@@ -89,7 +89,6 @@ text-decoration: none;
 
 .header-block {
 	background: rgb(238,225,194);
-	background: rgb(238,225,194, 0.7);
 }
 
 .table-striped tbody tr:nth-of-type(odd){
